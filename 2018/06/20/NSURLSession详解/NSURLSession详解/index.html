@@ -108,23 +108,40 @@
 
 
 
-  <meta name="description" content="站在更高的地方,看见更广的世界">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Toga21">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="网络请求网络层  BSD Networking 使用BSD Socket    CoreFoundation / CFNetwork 提供访问CFStream的API, 帮助你去访问sockets stream的文件流.  CFNetServices提供基于Bonjour Services(用于寻找服务)的发布和订阅的服务. CFHTTPReadStream能发送HTTP和接收响应体中的strea">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NSURLSession详解">
+<meta property="og:url" content="http://yoursite.com/2018/06/20/NSURLSession详解/NSURLSession详解/index.html">
 <meta property="og:site_name" content="Toga21">
-<meta property="og:description" content="站在更高的地方,看见更广的世界">
+<meta property="og:description" content="网络请求网络层  BSD Networking 使用BSD Socket    CoreFoundation / CFNetwork 提供访问CFStream的API, 帮助你去访问sockets stream的文件流.  CFNetServices提供基于Bonjour Services(用于寻找服务)的发布和订阅的服务. CFHTTPReadStream能发送HTTP和接收响应体中的strea">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-f59ab261a8882d01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-7ecce93737872ba0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-6d34f00f640514f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-7b0c50fdae01a65c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-651fb5b7d18581e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-ccf2ebe599524424.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-322f066750c730fb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-648aaea4dcd8da39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-6a6dda8c0ccd0171.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-ea070e649f9ede29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-a6156f10c766b77f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-6cfbe008d57ffab2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/617">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1862021-0fed1266eddaa64f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/663">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1862021-8d49380d145642c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/665">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1862021-dcfc78bad7a2475f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
+<meta property="og:updated_time" content="2018-06-20T09:17:30.979Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Toga21">
-<meta name="twitter:description" content="站在更高的地方,看见更广的世界">
+<meta name="twitter:title" content="NSURLSession详解">
+<meta name="twitter:description" content="网络请求网络层  BSD Networking 使用BSD Socket    CoreFoundation / CFNetwork 提供访问CFStream的API, 帮助你去访问sockets stream的文件流.  CFNetServices提供基于Bonjour Services(用于寻找服务)的发布和订阅的服务. CFHTTPReadStream能发送HTTP和接收响应体中的strea">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/1862021-f59ab261a8882d01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/20/NSURLSession详解/NSURLSession详解/"/>
 
 
 
@@ -134,7 +151,7 @@
   };
 </script>
 
-  <title>Toga21</title>
+  <title>NSURLSession详解 | Toga21</title>
   
 
 
@@ -181,8 +198,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -223,7 +239,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
   </li>
@@ -275,9 +291,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -309,11 +325,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/20/NSURLSession详解/NSURLSession详解/" itemprop="url">
-                  NSURLSession详解
-                </a>
+          <h1 class="post-title" itemprop="name headline">NSURLSession详解
               
             
           </h1>
@@ -376,9 +388,7 @@
       
 
       
-        
-          
-            <h2 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h2><h5 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h5><p><img src="https://upload-images.jianshu.io/upload_images/1862021-f59ab261a8882d01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="img"></p>
+        <h2 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h2><h5 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h5><p><img src="https://upload-images.jianshu.io/upload_images/1862021-f59ab261a8882d01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="img"></p>
 <ul>
 <li><h5 id="BSD-Networking"><a href="#BSD-Networking" class="headerlink" title="BSD Networking"></a>BSD Networking</h5></li>
 <li><p>使用BSD Socket</p>
@@ -669,8 +679,6 @@
 <p><a href="https://www.jianshu.com/p/b0ddadd34037" target="_blank" rel="noopener">开发只懂 AFN ？搞定 NSURLSession 才是硬道理</a></p>
 <p><a href="http://www.cocoachina.com/ios/20160503/16053.html" target="_blank" rel="noopener">深度断点续传(后台,杀死App)</a></p>
 
-          
-        
       
     </div>
 
@@ -690,217 +698,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/20/iOS-系统框架分层/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ML Lee">
-      <meta itemprop="description" content="站在更高的地方,看见更广的世界">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Toga21">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/20/iOS-系统框架分层/" itemprop="url">
-                  iOS 系统框架分层
-                </a>
-              
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
+              <a href="/2018/06/20/iOS-系统框架分层/" rel="next" title="iOS 系统框架分层">
+                <i class="fa fa-chevron-left"></i> iOS 系统框架分层
+              </a>
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-06-20 17:07:58 / 修改时间：17:26:48" itemprop="dateCreated datePublished" datetime="2018-06-20T17:07:58+08:00">2018-06-20</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h2><p><a href="https://developer.apple.com/documentation/#//apple_ref/doc/uid/TP40007898-CH9-SW30" target="_blank" rel="noopener">Apple官方介绍</a></p>
-<p><img src="/Users/limaolin/Desktop/MD/1.png" alt="1"></p>
-<h3 id="Cocoa-Touch"><a href="#Cocoa-Touch" class="headerlink" title="Cocoa Touch"></a>Cocoa Touch</h3><h5 id="UIKit、MapKit"><a href="#UIKit、MapKit" class="headerlink" title="UIKit、MapKit"></a>UIKit、MapKit</h5><h5 id="Notification-Center、PushKit、Apple-Push-Notification-Service、Local-Notifications"><a href="#Notification-Center、PushKit、Apple-Push-Notification-Service、Local-Notifications" class="headerlink" title="Notification Center、PushKit、Apple Push Notification Service、Local Notifications"></a>Notification Center、PushKit、Apple Push Notification Service、Local Notifications</h5><h5 id="AssetsLibrary-iOS9-、PhotosUI-iOS8"><a href="#AssetsLibrary-iOS9-、PhotosUI-iOS8" class="headerlink" title="AssetsLibrary(iOS9-)、PhotosUI(iOS8+)"></a>AssetsLibrary(iOS9-)、PhotosUI(iOS8+)</h5><h5 id="AddressBookUI-iOS9-、ContactsUI-iOS9"><a href="#AddressBookUI-iOS9-、ContactsUI-iOS9" class="headerlink" title="AddressBookUI(iOS9-)、ContactsUI(iOS9+)"></a>AddressBookUI(iOS9-)、ContactsUI(iOS9+)</h5><h5 id="TextKit-iOS7-文本处理和精美排版的类集合"><a href="#TextKit-iOS7-文本处理和精美排版的类集合" class="headerlink" title="TextKit(iOS7+) : 文本处理和精美排版的类集合"></a>TextKit(iOS7+) : 文本处理和精美排版的类集合</h5><h5 id="MessageUI、iAd、GameKit-iOS7-、MultipeerConnectivity-iOS7-、WatchKit、Document-Picker-UIDocumentPickerViewController-、EventKit-UI、Air-Drop"><a href="#MessageUI、iAd、GameKit-iOS7-、MultipeerConnectivity-iOS7-、WatchKit、Document-Picker-UIDocumentPickerViewController-、EventKit-UI、Air-Drop" class="headerlink" title="MessageUI、iAd、GameKit(iOS7-)、MultipeerConnectivity(iOS7+)、WatchKit、Document Picker(UIDocumentPickerViewController)、EventKit UI、Air Drop"></a>MessageUI、iAd、GameKit(iOS7-)、MultipeerConnectivity(iOS7+)、WatchKit、Document Picker(UIDocumentPickerViewController)、EventKit UI、Air Drop</h5><h5 id="Auto-Layout、SB、Xib、Gesture-Recognizers"><a href="#Auto-Layout、SB、Xib、Gesture-Recognizers" class="headerlink" title="Auto Layout、SB、Xib、Gesture Recognizers"></a>Auto Layout、SB、Xib、Gesture Recognizers</h5><h5 id="App-Extensions"><a href="#App-Extensions" class="headerlink" title="App Extensions"></a>App Extensions</h5><h3 id="Media"><a href="#Media" class="headerlink" title="Media"></a>Media</h3><p><a href="https://humyang.github.io/2015/iOS-Note-About-the-iOS-Technologies-Media-Layer/" target="_blank" rel="noopener">详解</a></p>
-<ul>
-<li><h5 id="图形"><a href="#图形" class="headerlink" title="图形"></a>图形</h5></li>
-</ul>
-<h5 id="CoreGraphics-核心图形库-C-API-CG开头的类-使用了Quartz作为绘图引擎。它提供了低级别、轻量级、高保真度的2D渲染。该框架可以用于基于路径的-绘图、变换、颜色管理、脱屏渲染，模板、渐变、遮蔽、图像数据管理、图像的创建、遮罩以及PDF文档的创建、显示和分析-UI库封装自它-是系统绘制界面文字图像等UI的基础。QuartZ-2D-的API封装了部分CG库-比较常用于绘制图形文字图像-截图-裁剪-自定义UI控件等-参考链接"><a href="#CoreGraphics-核心图形库-C-API-CG开头的类-使用了Quartz作为绘图引擎。它提供了低级别、轻量级、高保真度的2D渲染。该框架可以用于基于路径的-绘图、变换、颜色管理、脱屏渲染，模板、渐变、遮蔽、图像数据管理、图像的创建、遮罩以及PDF文档的创建、显示和分析-UI库封装自它-是系统绘制界面文字图像等UI的基础。QuartZ-2D-的API封装了部分CG库-比较常用于绘制图形文字图像-截图-裁剪-自定义UI控件等-参考链接" class="headerlink" title="CoreGraphics : 核心图形库,C-API,CG开头的类,使用了Quartz作为绘图引擎。它提供了低级别、轻量级、高保真度的2D渲染。该框架可以用于基于路径的 绘图、变换、颜色管理、脱屏渲染，模板、渐变、遮蔽、图像数据管理、图像的创建、遮罩以及PDF文档的创建、显示和分析(UI库封装自它),是系统绘制界面文字图像等UI的基础。QuartZ 2D 的API封装了部分CG库,比较常用于绘制图形文字图像,截图,裁剪,自定义UI控件等 参考链接"></a>CoreGraphics : 核心图形库,C-API,CG开头的类,使用了Quartz作为绘图引擎。它提供了低级别、轻量级、高保真度的2D渲染。该框架可以用于基于路径的 绘图、变换、颜色管理、脱屏渲染，模板、渐变、遮蔽、图像数据管理、图像的创建、遮罩以及PDF文档的创建、显示和分析(UI库封装自它),是系统绘制界面文字图像等UI的基础。QuartZ 2D 的API封装了部分CG库,比较常用于绘制图形文字图像,截图,裁剪,自定义UI控件等 <a href="https://www.cnblogs.com/fshmjl/p/4974375.html" target="_blank" rel="noopener">参考链接</a></h5><h5 id="QuartzCore-引用了CoreAnimation的头文件-两者是同一个-CA开头的类-CALayer是构成UIView的基石-用来呈现内容"><a href="#QuartzCore-引用了CoreAnimation的头文件-两者是同一个-CA开头的类-CALayer是构成UIView的基石-用来呈现内容" class="headerlink" title="QuartzCore : 引用了CoreAnimation的头文件,两者是同一个,CA开头的类,CALayer是构成UIView的基石,用来呈现内容"></a>QuartzCore : 引用了CoreAnimation的头文件,两者是同一个,CA开头的类,CALayer是构成UIView的基石,用来呈现内容</h5><ul>
-<li>UIView是基于CALayer的高层封装,UIView是用来显示内容,可以处理用户事件,CALayer用来绘制内容,对内容进行动画处理依赖于UIview来进行展示,不能处理事件<a href="http://o0o0o0o.iteye.com/blog/1728599" target="_blank" rel="noopener">参考</a> <a href="https://www.jianshu.com/p/079e5cf0f014" target="_blank" rel="noopener">参考2</a></li>
-<li>CAShapeLayer : 根据CGPath来渲染的图层,UIBezierpath是对CGPath的封装</li>
-<li>CATextLayer : 可以呈现文字,可以利用它实现一个label</li>
-<li>CAAnimation : 子类CAPropertyAnimation的两个子类负责动画,CABasicAnimation负责基础动画，CAKeyframeAnimation负责关键帧动画。</li>
-<li>带有Emitter的类是负责粒子</li>
-<li>动画的类，可以用来做炫酷的粒子动画。</li>
-<li>带有Trans的类负责仿射动画，所谓仿射，就是模仿阳光照射，就有了立体的感觉，可以做三维空间的变换，不像CAAnimation，只能在平面上动手脚。</li>
-</ul>
-<h5 id="OpenGL-ES-OpenGL的iOS版本-是一套多功能开放标准的用于嵌入系统的C-based的图形库，用于2D和3D数据的可视化。"><a href="#OpenGL-ES-OpenGL的iOS版本-是一套多功能开放标准的用于嵌入系统的C-based的图形库，用于2D和3D数据的可视化。" class="headerlink" title="OpenGL ES : OpenGL的iOS版本,是一套多功能开放标准的用于嵌入系统的C-based的图形库，用于2D和3D数据的可视化。"></a>OpenGL ES : OpenGL的iOS版本,是一套多功能开放标准的用于嵌入系统的C-based的图形库，用于2D和3D数据的可视化。</h5><p>​    OpenGL被设计用来转换一组图形调用功能到底层图形硬件（GPU），由GPU执行图形命令，用来实现复杂的图形操作和运算，从而能够高性能、高帧率利用GPU提供的2D和3D绘制能力。OpenGL ES规范本身不定义绘制表面和绘制窗口，因此ios为了使用它必须提供和创建一个OpenGLES 的呈现环境，创建和配置存储绘制命令结果的framebuffer 及创建和配置一个或多个呈现目标。在 iOS中使用EAGL提供的EAGLContext类 来实现和提供一个呈现环境，用来保持OpenGLES使用到的硬件状态。  EAGL是一个Objective-C API，提供使OpenGL ES与Core Animation和UIKIT集成的接口。</p>
-<h5 id="GLKit-基于OpenGLES的封装"><a href="#GLKit-基于OpenGLES的封装" class="headerlink" title="GLKit : 基于OpenGLES的封装"></a>GLKit : 基于OpenGLES的封装</h5><h5 id="MetalKit-OpenGL-ES是并列的，它们都是应用对GPU访问的底层接口。而Metal则提供了更底层，更面向硬件的接口-简介"><a href="#MetalKit-OpenGL-ES是并列的，它们都是应用对GPU访问的底层接口。而Metal则提供了更底层，更面向硬件的接口-简介" class="headerlink" title="MetalKit : OpenGL ES是并列的，它们都是应用对GPU访问的底层接口。而Metal则提供了更底层，更面向硬件的接口 简介"></a>MetalKit : OpenGL ES是并列的，它们都是应用对GPU访问的底层接口。而Metal则提供了更底层，更面向硬件的接口 <a href="http://www.cocoachina.com/game/20141013/9890.html" target="_blank" rel="noopener">简介</a></h5><ul>
-<li><h5 id="图像"><a href="#图像" class="headerlink" title="图像"></a>图像</h5></li>
-</ul>
-<h5 id="AssetsLibrary-iOS9-用于访问照片库中的图片和视频"><a href="#AssetsLibrary-iOS9-用于访问照片库中的图片和视频" class="headerlink" title="AssetsLibrary(iOS9-) : 用于访问照片库中的图片和视频"></a>AssetsLibrary(iOS9-) : 用于访问照片库中的图片和视频</h5><h5 id="Photos-iOS8-相册"><a href="#Photos-iOS8-相册" class="headerlink" title="Photos(iOS8+) : 相册"></a>Photos(iOS8+) : 相册</h5><h5 id="CoreImage-为静态图像和-Video-提供处理和分析的技术-既可以使用GPU也可以使用CPU对图像进行处理。可以在不了解-OpenGL、OpenGL-ES-甚至是-GCD-的基础上对其进行使用，他已经帮你对这些复杂的内容进行处理了。"><a href="#CoreImage-为静态图像和-Video-提供处理和分析的技术-既可以使用GPU也可以使用CPU对图像进行处理。可以在不了解-OpenGL、OpenGL-ES-甚至是-GCD-的基础上对其进行使用，他已经帮你对这些复杂的内容进行处理了。" class="headerlink" title="CoreImage : 为静态图像和 Video 提供处理和分析的技术,既可以使用GPU也可以使用CPU对图像进行处理。可以在不了解 OpenGL、OpenGL ES 甚至是 GCD 的基础上对其进行使用，他已经帮你对这些复杂的内容进行处理了。"></a>CoreImage : 为静态图像和 Video 提供处理和分析的技术,既可以使用GPU也可以使用CPU对图像进行处理。可以在不了解 OpenGL、OpenGL ES 甚至是 GCD 的基础上对其进行使用，他已经帮你对这些复杂的内容进行处理了。</h5><h5 id="ImageI-O-编码解码库-负责管理颜色和访问图像元数据"><a href="#ImageI-O-编码解码库-负责管理颜色和访问图像元数据" class="headerlink" title="ImageI/O : 编码解码库,负责管理颜色和访问图像元数据"></a>ImageI/O : 编码解码库,负责管理颜色和访问图像元数据</h5><p>#####GPUImage : 基于OpenGLES2.0实现,比CoreImage快,作者已不再更新…</p>
-<ul>
-<li><h5 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h5></li>
-</ul>
-<h5 id="CoreText、TextKit"><a href="#CoreText、TextKit" class="headerlink" title="CoreText、TextKit"></a>CoreText、TextKit</h5><p>使用 CoreText 技术，我们可以对富文本进行复杂的排版。经过一些简单的扩展，我们还可以实现对于图片，链接的点击效果等…<br><img src="/Users/limaolin/Desktop/MD/coretext_arch.png" alt="coretext_arch"></p>
-<ul>
-<li><h5 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h5></li>
-</ul>
-<p>​    <img src="/Users/limaolin/Desktop/MD/Media.jpg" alt="Media"></p>
-<h5 id="MediaPlayer-iOS9-AVKit-iOS8"><a href="#MediaPlayer-iOS9-AVKit-iOS8" class="headerlink" title="MediaPlayer(iOS9-),AVKit(iOS8+)"></a>MediaPlayer(iOS9-),AVKit(iOS8+)</h5><h5 id="AVFoundation-处理基于时间的媒体数据的高级Objective－C框架。使用大量的block和GCD机制使其基于苹果平台创建最先进的媒体应用。简介"><a href="#AVFoundation-处理基于时间的媒体数据的高级Objective－C框架。使用大量的block和GCD机制使其基于苹果平台创建最先进的媒体应用。简介" class="headerlink" title="AVFoundation : 处理基于时间的媒体数据的高级Objective－C框架。使用大量的block和GCD机制使其基于苹果平台创建最先进的媒体应用。简介"></a>AVFoundation : 处理基于时间的媒体数据的高级Objective－C框架。使用大量的block和GCD机制使其基于苹果平台创建最先进的媒体应用。<a href="https://blog.csdn.net/smiling8866/article/details/51707820" target="_blank" rel="noopener">简介</a></h5><ul>
-<li><h5 id="3-1、音频录制及播发"><a href="#3-1、音频录制及播发" class="headerlink" title="3.1、音频录制及播发"></a>3.1、音频录制及播发</h5></li>
-</ul>
-<p>AVFoundation提供了强大及简单的AVAudioPlayer和AVAudioRecorder来处理音频的播放和记录功能，这也不只是AVFoundation提供的唯一的播放和录制音频的方法。</p>
-<ul>
-<li><p>#####3.2、媒体文件检查</p>
-<p>AVFoundation提供了正在使用媒体文件检查功能，该框架基于AVMetadataItem类提供了强大的元数据支持。</p>
-</li>
-<li><p>#####3.3、视频播放</p>
-<p>AVFoundation提供了最常用的视频播放功能，最核心的就是AVPlayer和AVPlayerItme。</p>
-</li>
-<li><p>#####3.4、媒体捕捉</p>
-<p>AVFoundation提供了捕捉静态图片和视频的捕捉功能。</p>
-</li>
-<li><p>#####3.5、媒体编辑</p>
-<p>AVFoundation支持对媒体资源的整合和编辑，可以将多个音频和视频资源进行组合。</p>
-</li>
-<li><p>#####3.6、媒体处理</p>
-</li>
-</ul>
-<p>AVFoundation中AVAssetReader和AVAssetWriter可以执行媒体处理任务。</p>
-<h5 id="CoreMedia-AVFoundation所用到的低层级媒体管道的一部分。它提供针对音频样本赫尔视频处理所需的低层级数据类型和接口-提供了基于CMTime数据类型的时基模型-要对音频或视频创建及展示进行精确控制的应用程序时可以使用该框架"><a href="#CoreMedia-AVFoundation所用到的低层级媒体管道的一部分。它提供针对音频样本赫尔视频处理所需的低层级数据类型和接口-提供了基于CMTime数据类型的时基模型-要对音频或视频创建及展示进行精确控制的应用程序时可以使用该框架" class="headerlink" title="CoreMedia : AVFoundation所用到的低层级媒体管道的一部分。它提供针对音频样本赫尔视频处理所需的低层级数据类型和接口,提供了基于CMTime数据类型的时基模型,要对音频或视频创建及展示进行精确控制的应用程序时可以使用该框架"></a>CoreMedia : AVFoundation所用到的低层级媒体管道的一部分。它提供针对音频样本赫尔视频处理所需的低层级数据类型和接口,提供了基于CMTime数据类型的时基模型,要对音频或视频创建及展示进行精确控制的应用程序时可以使用该框架</h5><p>​ ##### CoreVideo : 操作音频和视频的底层,为CoreMedia提供缓冲和缓冲池支持,大多数app不需要使用这个框架 !</p>
-<p>#####VideoToolbox(iOS8+) : 视频硬编码与硬解码的API </p>
-<ul>
-<li>#####音频</li>
-</ul>
-<p>​    <img src="/Users/limaolin/Desktop/MD/Audio.png" alt="Audio"></p>
-<h5 id="MediaPlayer-iOS9-AVKit-iOS8-1"><a href="#MediaPlayer-iOS9-AVKit-iOS8-1" class="headerlink" title="MediaPlayer(iOS9-),AVKit(iOS8+)"></a>MediaPlayer(iOS9-),AVKit(iOS8+)</h5><h5 id="AVFoundation"><a href="#AVFoundation" class="headerlink" title="AVFoundation"></a>AVFoundation</h5><h5 id="CoreAudio-音频事件框架-由多个框架整合而成-为音频和MIDI内容录制、播放和处理提高借口。Core-Audio也提供高级接口-如Audio-Queue-Services（可以实时语音）处理基本的音频播放和录制功能。"><a href="#CoreAudio-音频事件框架-由多个框架整合而成-为音频和MIDI内容录制、播放和处理提高借口。Core-Audio也提供高级接口-如Audio-Queue-Services（可以实时语音）处理基本的音频播放和录制功能。" class="headerlink" title="CoreAudio : 音频事件框架,由多个框架整合而成,为音频和MIDI内容录制、播放和处理提高借口。Core Audio也提供高级接口,如Audio Queue Services（可以实时语音）处理基本的音频播放和录制功能。"></a>CoreAudio : 音频事件框架,由多个框架整合而成,为音频和MIDI内容录制、播放和处理提高借口。Core Audio也提供高级接口,如Audio Queue Services（可以实时语音）处理基本的音频播放和录制功能。</h5><h5 id="AudioToolbox-iOS8-C-based音频工具箱-处理音频数据流-录制播放等-多用于在线流媒体音乐的播放"><a href="#AudioToolbox-iOS8-C-based音频工具箱-处理音频数据流-录制播放等-多用于在线流媒体音乐的播放" class="headerlink" title="AudioToolbox(iOS8+) : C-based音频工具箱:处理音频数据流(录制播放等),多用于在线流媒体音乐的播放"></a>AudioToolbox(iOS8+) : C-based音频工具箱:处理音频数据流(录制播放等),多用于在线流媒体音乐的播放</h5><h5 id="OpenAL-提供音频定位的行业标准技术"><a href="#OpenAL-提供音频定位的行业标准技术" class="headerlink" title="OpenAL : 提供音频定位的行业标准技术"></a>OpenAL : 提供音频定位的行业标准技术</h5><h5 id="AudioUnit-加载-使用音频单元的接口"><a href="#AudioUnit-加载-使用音频单元的接口" class="headerlink" title="AudioUnit : 加载,使用音频单元的接口"></a>AudioUnit : 加载,使用音频单元的接口</h5><h3 id="Core-Services"><a href="#Core-Services" class="headerlink" title="Core Services"></a>Core Services</h3><p> <a href="https://humyang.github.io/2015/iOS-Note-About-the-iOS-Technologies-Core-Service-Layer/" target="_blank" rel="noopener">详解</a></p>
-<h5 id="iCloud-CloudKit"><a href="#iCloud-CloudKit" class="headerlink" title="iCloud , CloudKit"></a>iCloud , CloudKit</h5><h5 id="Block"><a href="#Block" class="headerlink" title="Block"></a>Block</h5><h5 id="Data-Protection"><a href="#Data-Protection" class="headerlink" title="Data Protection"></a>Data Protection</h5><h5 id="File-Sharing"><a href="#File-Sharing" class="headerlink" title="File-Sharing"></a>File-Sharing</h5><h5 id="GCD"><a href="#GCD" class="headerlink" title="GCD"></a>GCD</h5><h5 id="In-App-Purchase-StoreKit"><a href="#In-App-Purchase-StoreKit" class="headerlink" title="In-App Purchase , StoreKit"></a>In-App Purchase , StoreKit</h5><h5 id="SQLite-CoreData"><a href="#SQLite-CoreData" class="headerlink" title="SQLite , CoreData"></a>SQLite , CoreData</h5><h5 id="XML-Support"><a href="#XML-Support" class="headerlink" title="XML Support"></a>XML Support</h5><p>#####Accounts, Address Book</p>
-<h5 id="Ad-Support"><a href="#Ad-Support" class="headerlink" title="Ad Support"></a>Ad Support</h5><h5 id="CFNetwork-使用面向对象的抽象概念与网络协议一起工作的基于-C-语言的高性能的接口的集合。这些抽象概念给你详细控制协议堆栈和使它轻松的使用-lower-level-构造例如-BSD-sockets。你可以使用这个框架简化任务例如和-FTP-和-HTTP-服务器通信或者解析-DNS-hosts。使用-CFNetwork-framework，你可以："><a href="#CFNetwork-使用面向对象的抽象概念与网络协议一起工作的基于-C-语言的高性能的接口的集合。这些抽象概念给你详细控制协议堆栈和使它轻松的使用-lower-level-构造例如-BSD-sockets。你可以使用这个框架简化任务例如和-FTP-和-HTTP-服务器通信或者解析-DNS-hosts。使用-CFNetwork-framework，你可以：" class="headerlink" title="CFNetwork : 使用面向对象的抽象概念与网络协议一起工作的基于 C 语言的高性能的接口的集合。这些抽象概念给你详细控制协议堆栈和使它轻松的使用 lower-level 构造例如 BSD sockets。你可以使用这个框架简化任务例如和 FTP 和 HTTP 服务器通信或者解析 DNS hosts。使用 CFNetwork framework，你可以："></a>CFNetwork : 使用面向对象的抽象概念与网络协议一起工作的基于 C 语言的高性能的接口的集合。这些抽象概念给你详细控制协议堆栈和使它轻松的使用 lower-level 构造例如 BSD sockets。你可以使用这个框架简化任务例如和 FTP 和 HTTP 服务器通信或者解析 DNS hosts。使用 CFNetwork framework，你可以：</h5><p>​<br>​    - 使用 BSD sockets<br>​    - 使用 SSL 或 TLS 创建加密连接<br>​    - 解析 DNS hosts<br>​    - 与 HTTP 服务器共同工作，认证 HTTP 服务器，和 HTTPS 服务器<br>​    - 与 FTP 服务器共同工作<br>​    - 发布，解析，和浏览 Bonjour 服务。<br>BSD sockets 是基于CFNetwork 的，物理上和理论上都是。</p>
-<h5 id="Foundation-Core-Foundation"><a href="#Foundation-Core-Foundation" class="headerlink" title="Foundation , Core Foundation"></a>Foundation , Core Foundation</h5><p>#####Core Location</p>
-<h5 id="Core-Media"><a href="#Core-Media" class="headerlink" title="Core Media"></a>Core Media</h5><h5 id="Core-Telephone-可以使用这个框架取得关于用户的蜂窝服务提供商的信息"><a href="#Core-Telephone-可以使用这个框架取得关于用户的蜂窝服务提供商的信息" class="headerlink" title="Core Telephone : 可以使用这个框架取得关于用户的蜂窝服务提供商的信息"></a>Core Telephone : 可以使用这个框架取得关于用户的蜂窝服务提供商的信息</h5><h5 id="EventKit-提供访问用户设备的日历活动的接口"><a href="#EventKit-提供访问用户设备的日历活动的接口" class="headerlink" title="EventKit : 提供访问用户设备的日历活动的接口"></a>EventKit : 提供访问用户设备的日历活动的接口</h5><h5 id="HealthKit-可以使用-HomeKit-与用户家中已有的设备通信"><a href="#HealthKit-可以使用-HomeKit-与用户家中已有的设备通信" class="headerlink" title="HealthKit : 可以使用 HomeKit 与用户家中已有的设备通信"></a>HealthKit : 可以使用 HomeKit 与用户家中已有的设备通信</h5><h5 id="JavaScript-Core-WebKit"><a href="#JavaScript-Core-WebKit" class="headerlink" title="JavaScript Core , WebKit"></a>JavaScript Core , WebKit</h5><h5 id="Core-Media-操作音视频的底层媒体"><a href="#Core-Media-操作音视频的底层媒体" class="headerlink" title="Core Media : 操作音视频的底层媒体"></a>Core Media : 操作音视频的底层媒体</h5><h5 id="Multipeer-Connectivity-提供了查找临近的设备并和它们直接通信而不需要通过网络连接。这个框架能轻松建立多点会话和传输可靠的有序数据和传输实时数据。在这个框架中，你的-app-可以与临近设备通信，和无缝交换数据。"><a href="#Multipeer-Connectivity-提供了查找临近的设备并和它们直接通信而不需要通过网络连接。这个框架能轻松建立多点会话和传输可靠的有序数据和传输实时数据。在这个框架中，你的-app-可以与临近设备通信，和无缝交换数据。" class="headerlink" title="Multipeer Connectivity : 提供了查找临近的设备并和它们直接通信而不需要通过网络连接。这个框架能轻松建立多点会话和传输可靠的有序数据和传输实时数据。在这个框架中，你的 app 可以与临近设备通信，和无缝交换数据。"></a>Multipeer Connectivity : 提供了查找临近的设备并和它们直接通信而不需要通过网络连接。这个框架能轻松建立多点会话和传输可靠的有序数据和传输实时数据。在这个框架中，你的 app 可以与临近设备通信，和无缝交换数据。</h5><h5 id="Mobile-Core-Services"><a href="#Mobile-Core-Services" class="headerlink" title="Mobile Core Services"></a>Mobile Core Services</h5><h5 id="NewsstandKit-提供了一个阅读杂志和报纸的中心位置"><a href="#NewsstandKit-提供了一个阅读杂志和报纸的中心位置" class="headerlink" title="NewsstandKit : 提供了一个阅读杂志和报纸的中心位置"></a>NewsstandKit : 提供了一个阅读杂志和报纸的中心位置</h5><h5 id="PassKit-Framework-Passbook-app-为用户提供了保存优惠卷，登机牌，活动门票，和对企业打折卡的的位置"><a href="#PassKit-Framework-Passbook-app-为用户提供了保存优惠卷，登机牌，活动门票，和对企业打折卡的的位置" class="headerlink" title="PassKit Framework : Passbook app 为用户提供了保存优惠卷，登机牌，活动门票，和对企业打折卡的的位置"></a>PassKit Framework : Passbook app 为用户提供了保存优惠卷，登机牌，活动门票，和对企业打折卡的的位置</h5><h5 id="Quick-Look-Framework-Quick-Look-framework-QuickLook-framework-提供了直观的界面预览你的-apps-不直接支持的文件内容。"><a href="#Quick-Look-Framework-Quick-Look-framework-QuickLook-framework-提供了直观的界面预览你的-apps-不直接支持的文件内容。" class="headerlink" title="Quick Look Framework : Quick Look framework (QuickLook.framework) 提供了直观的界面预览你的 apps 不直接支持的文件内容。"></a>Quick Look Framework : Quick Look framework (QuickLook.framework) 提供了直观的界面预览你的 apps 不直接支持的文件内容。</h5><h5 id="Safari-Service-提供了以编程的方式添加-URLs-到用户的阅读列表。"><a href="#Safari-Service-提供了以编程的方式添加-URLs-到用户的阅读列表。" class="headerlink" title="Safari Service : 提供了以编程的方式添加 URLs 到用户的阅读列表。"></a>Safari Service : 提供了以编程的方式添加 URLs 到用户的阅读列表。</h5><p>#####Social Framework : Social framework (Social.framework) 提供了简便的接口访问用户的社交媒体账户,取代了Twitter.framework</p>
-<h5 id="System-Configuration-Framework-System-Configuration-framework-SystemConfiguration-framework-提供了-可-访问性接口，可以用它判断设备的网络配置。例如判断是否使用-Wi-Fi，或者是否在使用蜂窝连接，是否可以访问特定的主机服务器。"><a href="#System-Configuration-Framework-System-Configuration-framework-SystemConfiguration-framework-提供了-可-访问性接口，可以用它判断设备的网络配置。例如判断是否使用-Wi-Fi，或者是否在使用蜂窝连接，是否可以访问特定的主机服务器。" class="headerlink" title="System Configuration Framework : System Configuration framework (SystemConfiguration.framework) 提供了 可 访问性接口，可以用它判断设备的网络配置。例如判断是否使用 Wi-Fi，或者是否在使用蜂窝连接，是否可以访问特定的主机服务器。"></a>System Configuration Framework : System Configuration framework (<em>SystemConfiguration.framework</em>) 提供了 可 访问性接口，可以用它判断设备的网络配置。例如判断是否使用 Wi-Fi，或者是否在使用蜂窝连接，是否可以访问特定的主机服务器。</h5><h5 id="推送-APNs-PushKit-iOS8-CallKit"><a href="#推送-APNs-PushKit-iOS8-CallKit" class="headerlink" title="推送 : APNs , PushKit(iOS8+) , CallKit"></a>推送 : APNs , PushKit(iOS8+) , CallKit</h5><h3 id="Core-OS"><a href="#Core-OS" class="headerlink" title="Core OS"></a>Core OS</h3><p><a href="https://humyang.github.io/2015/iOS-Note-About-the-iOS-Technologies-Core-OS-Layer/" target="_blank" rel="noopener">详解</a></p>
-<h5 id="Accelerate-Framework-Accelerate-framework-Accelerate-framework-包含执行数字信号处理-DSP-，线性代数，和图像处理计算的接口。"><a href="#Accelerate-Framework-Accelerate-framework-Accelerate-framework-包含执行数字信号处理-DSP-，线性代数，和图像处理计算的接口。" class="headerlink" title="Accelerate Framework : Accelerate framework (Accelerate.framework) 包含执行数字信号处理 (DSP)，线性代数，和图像处理计算的接口。"></a>Accelerate Framework : Accelerate framework (<em>Accelerate.framework</em>) 包含执行数字信号处理 (DSP)，线性代数，和图像处理计算的接口。</h5><p>#####Core Bluetooth Framework : Core Bluetooth framework (<em>CoreBluetooth.framework</em>) 允许开发者与蓝牙低功耗配件互动。这个框架的 Objective-C 接口允许你做以下事情：</p>
-<p>​    - 扫描蓝牙配件并与你找到的配件连接或断开连接<br>​    - 提供你的 app 服务，为其他蓝牙设备打开 iOS 设备到周边<br>​    - 对其他 iOS 广播 iBeacon 信息<br>​    - 保持你的蓝牙连接状态和在你的 app 再次启动时恢复这些连接<br>​    - 外部可用的蓝牙设备变化时发出通知</p>
-<h5 id="External-Accessory-Framework-External-Accessory-ExternalAccessory-framework-提供已与基于-iOS-的设备连接的硬件配件的通信。配件可以通过设备的-30-pin-dock-连接器或无线蓝牙连接。"><a href="#External-Accessory-Framework-External-Accessory-ExternalAccessory-framework-提供已与基于-iOS-的设备连接的硬件配件的通信。配件可以通过设备的-30-pin-dock-连接器或无线蓝牙连接。" class="headerlink" title="External Accessory Framework : External Accessory (ExternalAccessory.framework) 提供已与基于 iOS 的设备连接的硬件配件的通信。配件可以通过设备的 30-pin dock 连接器或无线蓝牙连接。"></a>External Accessory Framework : External Accessory (<em>ExternalAccessory.framework</em>) 提供已与基于 iOS 的设备连接的硬件配件的通信。配件可以通过设备的 30-pin dock 连接器或无线蓝牙连接。</h5><h5 id="Generic-Security-Services-Framework-Generic-Security-Services-framework-GSS-framework-为-iOS-app-提供标准的安全相关的服务集合。"><a href="#Generic-Security-Services-Framework-Generic-Security-Services-framework-GSS-framework-为-iOS-app-提供标准的安全相关的服务集合。" class="headerlink" title="Generic Security Services Framework : Generic Security Services framework (GSS.framework) 为 iOS app 提供标准的安全相关的服务集合。"></a>Generic Security Services Framework : Generic Security Services framework (<em>GSS.framework</em>) 为 iOS app 提供标准的安全相关的服务集合。</h5><h5 id="Local-Authentication-Framework-Local-Authentication-Framework-LocalAuthentication-framework-让你使用-Touch-ID-来认证用户。"><a href="#Local-Authentication-Framework-Local-Authentication-Framework-LocalAuthentication-framework-让你使用-Touch-ID-来认证用户。" class="headerlink" title="Local Authentication Framework : Local Authentication Framework (LocalAuthentication.framework) 让你使用 Touch ID 来认证用户。"></a>Local Authentication Framework : Local Authentication Framework (<em>LocalAuthentication.framework</em>) 让你使用 Touch ID 来认证用户。</h5><h5 id="Network-Extension-Framwork-Network-Extension-framework-NetworkExtension-framework-提供配置和控制虚拟私有网络-VPN-隧道的支持。"><a href="#Network-Extension-Framwork-Network-Extension-framework-NetworkExtension-framework-提供配置和控制虚拟私有网络-VPN-隧道的支持。" class="headerlink" title="Network Extension Framwork : Network Extension framework (NetworkExtension.framework) 提供配置和控制虚拟私有网络 (VPN) 隧道的支持。"></a>Network Extension Framwork : Network Extension framework (<em>NetworkExtension.framework</em>) 提供配置和控制虚拟私有网络 (VPN) 隧道的支持。</h5><h5 id="Security-Framework-除了内置的安全功能，iOS-也提供了一个精密的安全框架-Security-framework-确保你的-app-管理的数据的安全。这个框架提供管理证书，公钥和私钥，和信任策略的接口。它支持新一代的加密安全伪随机数。它也支持在钥匙扣保存证书和加密密钥，这是为敏感用户信息服务的安全仓库。"><a href="#Security-Framework-除了内置的安全功能，iOS-也提供了一个精密的安全框架-Security-framework-确保你的-app-管理的数据的安全。这个框架提供管理证书，公钥和私钥，和信任策略的接口。它支持新一代的加密安全伪随机数。它也支持在钥匙扣保存证书和加密密钥，这是为敏感用户信息服务的安全仓库。" class="headerlink" title="Security Framework : 除了内置的安全功能，iOS 也提供了一个精密的安全框架 (Security.framework) 确保你的 app 管理的数据的安全。这个框架提供管理证书，公钥和私钥，和信任策略的接口。它支持新一代的加密安全伪随机数。它也支持在钥匙扣保存证书和加密密钥，这是为敏感用户信息服务的安全仓库。"></a>Security Framework : 除了内置的安全功能，iOS 也提供了一个精密的安全框架 (<em>Security.framework</em>) 确保你的 app 管理的数据的安全。这个框架提供管理证书，公钥和私钥，和信任策略的接口。它支持新一代的加密安全伪随机数。它也支持在钥匙扣保存证书和加密密钥，这是为敏感用户信息服务的安全仓库。</h5><h3 id="System"><a href="#System" class="headerlink" title="System"></a>System</h3><p>system level 包含内核环境，驱动，和操作系统的低级别 UNIX 接口。内核是基于 Mach 的，负责操作系统的各个方面。它管理虚拟内存系统，线程，文件系统，网络，和进程间通讯。这层的驱动提供可用的硬件和系统框架之间的接口。为安全起见，系统框架集合和 app 限制了访问内核和驱动。</p>
-<p>iOS 提供访问非常多操作系统的低级别功能的接口集合。你的 app 可以通过 LibSystem library 访问这些功能。接口是基于 C 语言的并且对以下提供支持：<br>​    - 并发 (POSIX 线程 和统一调度中心)<br>​    - 网络 (BSD sockets)<br>​    - 文件系统访问<br>​    - 标准化 I/O<br>​    - Bonjour 和 DNS 服务<br>​    - 本地信息<br>​    - 内存分配<br>​    - 数学运行</p>
-<p>​    许多 Core OS 技术的头文件位置在 &lt;<em>iOS_SDK</em>&gt;/usr/include/ 目录，&lt;<em>iOS_SDK</em>&gt;是安装 Xcode 时设置的目标 SDK 路径目录。</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -910,14 +729,19 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -938,8 +762,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -984,6 +817,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#网络请求"><span class="nav-number">1.</span> <span class="nav-text">网络请求</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#网络层"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">网络层</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#BSD-Networking"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">BSD Networking</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#CoreFoundation-CFNetwork"><span class="nav-number">1.0.0.3.</span> <span class="nav-text">CoreFoundation / CFNetwork</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Foundation"><span class="nav-number">1.0.0.4.</span> <span class="nav-text">Foundation</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSession和NSURLConnection"><span class="nav-number">1.0.0.5.</span> <span class="nav-text">NSURLSession和NSURLConnection</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSession的优势"><span class="nav-number">1.0.0.6.</span> <span class="nav-text">NSURLSession的优势</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSession"><span class="nav-number">1.0.0.7.</span> <span class="nav-text">NSURLSession</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionConfiguration"><span class="nav-number">1.0.0.8.</span> <span class="nav-text">NSURLSessionConfiguration</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionTask"><span class="nav-number">1.0.0.9.</span> <span class="nav-text">NSURLSessionTask</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionDelegate"><span class="nav-number">1.0.0.10.</span> <span class="nav-text">NSURLSessionDelegate</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Background-Transfers"><span class="nav-number">1.0.0.11.</span> <span class="nav-text">Background Transfers</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#URL-Loading-System"><span class="nav-number">1.0.0.12.</span> <span class="nav-text">URL Loading System</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NSURLSession详解及其相关类"><span class="nav-number">2.</span> <span class="nav-text">NSURLSession详解及其相关类</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSession-1"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">NSURLSession</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionConfiguration-1"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">NSURLSessionConfiguration</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionDelegate-1"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">NSURLSessionDelegate</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionTask-1"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">NSURLSessionTask</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#NSURLSessionTaskMetrics-和-NSURLSessionTaskTransactionMetrics"><span class="nav-number">2.0.0.5.</span> <span class="nav-text">NSURLSessionTaskMetrics 和 NSURLSessionTaskTransactionMetrics</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#身份验证和自定义TLS"><span class="nav-number">2.0.0.6.</span> <span class="nav-text">身份验证和自定义TLS</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#重定位response"><span class="nav-number">2.0.0.7.</span> <span class="nav-text">重定位response</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#DataTask"><span class="nav-number">2.0.0.8.</span> <span class="nav-text">DataTask</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#DownloadTask"><span class="nav-number">2.0.0.9.</span> <span class="nav-text">DownloadTask</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#UploadTask"><span class="nav-number">2.0.0.10.</span> <span class="nav-text">UploadTask</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#StreamTask"><span class="nav-number">2.0.0.11.</span> <span class="nav-text">StreamTask</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#task-completion"><span class="nav-number">2.0.0.12.</span> <span class="nav-text">task completion</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#销毁session"><span class="nav-number">2.0.0.13.</span> <span class="nav-text">销毁session</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Background-Transport"><span class="nav-number">3.</span> <span class="nav-text">Background Transport</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Usage"><span class="nav-number">3.0.0.1.</span> <span class="nav-text">Usage</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#后台传输总结"><span class="nav-number">3.0.0.2.</span> <span class="nav-text">后台传输总结</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NSURLSession-API"><span class="nav-number">4.</span> <span class="nav-text">NSURLSession-API</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#创建Session"><span class="nav-number">4.0.0.1.</span> <span class="nav-text">创建Session</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#配置Session"><span class="nav-number">4.0.0.2.</span> <span class="nav-text">配置Session</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加data任务"><span class="nav-number">4.0.0.3.</span> <span class="nav-text">添加data任务</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加download任务"><span class="nav-number">4.0.0.4.</span> <span class="nav-text">添加download任务</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加upload任务"><span class="nav-number">4.0.0.5.</span> <span class="nav-text">添加upload任务</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加stream任务"><span class="nav-number">4.0.0.6.</span> <span class="nav-text">添加stream任务</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#管理session"><span class="nav-number">4.0.0.7.</span> <span class="nav-text">管理session</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#API总结"><span class="nav-number">4.0.0.8.</span> <span class="nav-text">API总结</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#断点续传"><span class="nav-number">4.0.0.9.</span> <span class="nav-text">断点续传</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#线程安全"><span class="nav-number">4.0.0.10.</span> <span class="nav-text">线程安全</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Warning"><span class="nav-number">4.0.0.11.</span> <span class="nav-text">Warning</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1111,6 +960,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
